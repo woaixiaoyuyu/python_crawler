@@ -2,8 +2,6 @@
 import requests
 import re
 from bs4 import BeautifulSoup
-from requests.packages import urllib3
-urllib3.disable_warnings()
 
 url='https://www.tom-ford.cn/'
 data={}
